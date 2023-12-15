@@ -6,9 +6,9 @@ import psycopg2
 # Connecting to our DataBase
 db_host='localhost'
 db_name='BdIMDb'
-db_user='postgres'
-db_password='qwerty321'
-db_port='5432'
+db_user='...'
+db_password='...'
+db_port='...'
 connection = psycopg2.connect(host=db_host, database=db_name, user=db_user, password=db_password)
 cursor = connection.cursor()
 
